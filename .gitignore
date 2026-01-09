@@ -52,3 +52,25 @@ htmlcov/
 
 # Logs
 *.log
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/build/
+
+# Docker volumes
+.docker/postgres-data/
+.docker/redis-data/
+.docker/minio-data/
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
